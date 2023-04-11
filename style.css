@@ -1,107 +1,83 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{margin:0; padding: 0;box-sizing:border-box;}
 
 body {
-
- background-color: CornSilk;
-
+ background-image: url(http://endereco-da-imagem.com.br/imagem.pn);
  width: 100%;
-
  text-align: center;
-
  padding: 20px;
-
- color: brown;
-
+ color: #9a4dce;
+background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--FNm6M500--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/80ywr4mbxogncowbkjxc.gif');
+background-repeat: no-repeat;
+background-size: 100%;
 }
 
 form {
-
 max-width: 100%;
-
  background-color: white;
-
- border-radius: 20px;
-
- width: 68%;
-
- padding: 3%;
-
+ border-radius: 25px;
+ width: 27%;
+ padding: 2%;
  position: absolute;
-
  left: 50%;
-
- top: 40%;
-
+ top: 50%;
  transform: translate(-50%,-50%);
-
  border: solid white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
- font-family: Sans serif;
-
+ font-size: 25px;
+ 
 }
 
 .input { 
-
   width: 80%;
-
   height: 30px;
-
   border-radius: 12px;
-
   border: solid 1px grey;
-
-  margin: 10px 0px;
-
+  margin: 15px 0px;
+  font-size: 19px;
+  padding-left: 20px;
  }
-
  
-
 .calculo {
-
- width: 80%;
-
-  height: 30px;
-
+  width: 80%;
+  height: 40px;
   border-radius: 12px;
-
-  border: solid 1px black;
-
   cursor: pointer;
-
-  background-color: brown;
-
+  background-color: #9a4dce;
   color: white;
-
-  border: solid 1px black;
-
+  border: solid 1px #9a4dce;
+  font-size: 19px;
+  margin: 15px 0;
+  transition: .6s;
  }
-
  
-
 .resultado {
-
 width: 80%;
-
-height: 40px;
-
+height: 52px;
 border-radius: 12px;
-
 border: solid 1px black;
-
 background-color: white;
-
 color: black;
-
-margin: 10px 0;
-
+margin: 15px 0;
 text-align: center;
-
-margin-left: 27px;
-
+margin-left: 39px;
+font-size: 32px;
+padding-top: 11px;
+transition: .4s;
 }
 
 .pag {
+font-size: 16px;
+}
 
-font-size: 12px;
+.calculo:hover {
+ background-color: black;
+ color: white;
+ border: black solid 1px;
+ letter-spacing: 6px;
+ border-radius: 30px 30px 30px 30px;
+  }
 
+.resultado:hover {
+  color: #9a4dce;
 }
