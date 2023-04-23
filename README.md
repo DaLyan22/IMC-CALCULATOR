@@ -10,4 +10,4 @@
 
 <h5 align="center"> Teste você mesmo meu projeto por meio desse link, caso encontre algum bug nele, por favor me avise </h5>
 
-<a href="https://calculadora-de-imc.glitch.me/">Teste agora mesmo!</a>
+<p align="center"><a href="https://calculadora-de-imc.glitch.me/">Teste agora mesmo!</a></p>
